@@ -7,39 +7,39 @@ class HeicToJpg {
     /**
      * Stores binary content of JPG file
      */
-    private string $binary;
+    private $binary;
 
     /**
      * Stores converted JPG file location
      */
-    private string $jpg;
+    private $jpg;
 
     /**
      * Executable file name from bin folder
      */
-    protected string $exeName = "heicToJpg";
+    protected $exeName = "heicToJpg";
 
     /**
      * OS of server
      */
-    protected string $os = "linux";
+    protected $os = "linux";
 
     /**
      * Architecture of server
      */
-    protected string $arch = "amd64";
+    protected $arch = "amd64";
 
     /**
      * Force arm64
      */
-    protected bool $forceArm = false;
+    protected $forceArm = false;
 
     /**
      * Location of the "heif-converter-image" package's executable
      */
-    protected string $libheifConverterLocation = "";
+    protected $libheifConverterLocation = "";
 
-    protected string $libheifOutput = "";
+    protected $libheifOutput = "";
 
     /**
      * Takes full location of file as a string

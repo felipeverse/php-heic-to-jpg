@@ -28,6 +28,6 @@
   },
   "require": {
     "maestroerror/heif-converter": "0.2",
-    "php": ">=7.4"
+    "php": ">=7.3"
   }
 }
